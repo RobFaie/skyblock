@@ -32,7 +32,7 @@ public class Trades {
     public static Int2ObjectMap<TradeOffers.Factory[]> getSkyblockWanderingTraderOffers() {
         return new Int2ObjectOpenHashMap<>(ImmutableMap.of(2, new TradeOffers.Factory[] {
             sell(Items.SOUL_SAND, 1, 11),
-            sell(Items.LAVA_BUCKET, 16, 9),
+            sell(Items.LAVA_BUCKET, 16, 12),
             sell(Items.CHORUS_FLOWER, 5, 6),
             sell(Items.JUKEBOX, 64, 6),
             sell(Items.HEART_OF_THE_SEA, 64, 6),
